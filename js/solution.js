@@ -50,6 +50,7 @@ for(let i = 0; i < ul.attributes.length; i++){
    attrib = ul.attributes[i];
  // console.log(attrib);
 
+
 arr1.push(attrib.value);
 arr2.push(attrib.name);
 }
@@ -57,3 +58,10 @@ console.log(arr1);// here we have array with value of attributes
 
 //////Так-же записать в отдельный массив каждое имя аттрибута — вывести массив в консоль
 console.log(arr2);//here we've got array with keys of attributes
+
+/////////////////////// HERE WE HAVE THE SAME RESULT WITH THE LOOP FOR ... OF
+let arr11 = [];
+for(let elem of ul.attributes){
+    arr11.push(elem);
+}
+console.log(arr11);
