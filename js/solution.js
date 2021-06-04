@@ -39,7 +39,7 @@ liFirst.setAttribute('data-my-name','Mike');
 ///Удалить у тега ul аттрибут ‘data-dog-tail‘
 
 let  ul = document.querySelector('ul');
-//ul.removeAttribute('data-dog-tail');
+ul.removeAttribute('data-dog-tail');
 console.log(ul);
 
 //////Вытянуть все аттрибуты которые есть в теге ul, перебрать их (for..of) и записать значение каждого аттрибута в массив — вывсести этот массив в консоль
